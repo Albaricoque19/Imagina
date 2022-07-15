@@ -1,105 +1,125 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 
-export default () => (
-  <section className="s3">
-    <Container>
-      <div className="s3__titles">
-        <h1> Amazing Features.</h1>
-        <h4>Integer Cursus Bibendum Augue Ac Cursus .</h4>
-      </div>
-      <Row className="s3__box-wrapper">
-        <Col md="6" lg="3" className="s3__box-item">
-          <img
-            src="https://bootstrapmade.com/demo/themes/eStartup/img/svg/paint-palette.svg"
-            alt=""
-          />
-          <h3>creative design</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry
-          </p>
-        </Col>
-        <Col md="6" lg="3" className="s3__box-item">
-          <img
-            src="https://bootstrapmade.com/demo/themes/eStartup/img/svg/vector.svg"
-            alt=""
-          />
-          <h3>retina ready</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry
-          </p>
-        </Col>
-        <Col md="6" lg="3" className="s3__box-item">
-          <img
-            src="https://bootstrapmade.com/demo/themes/eStartup/img/svg/design-tool.svg"
-            alt=""
-          />
-          <h3>easy to use</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry
-          </p>
-        </Col>
-        <Col md="6" lg="3" className="s3__box-item">
-          <img
-            src="https://bootstrapmade.com/demo/themes/eStartup/img/svg/asteroid.svg"
-            alt=""
-          />
-          <h3>free updates</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry
-          </p>
-        </Col>
-        <Col md="6" lg="3" className="s3__box-item">
-          <img
-            src="https://bootstrapmade.com/demo/themes/eStartup/img/svg/asteroid.svg"
-            alt=""
-          />
-          <h3>free updates</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry
-          </p>
-        </Col>
-        <Col md="6" lg="3" className="s3__box-item">
-          <img
-            src="https://bootstrapmade.com/demo/themes/eStartup/img/svg/cloud-computing.svg"
-            alt=""
-          />
-          <h3>app store support</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry
-          </p>
-        </Col>
-        <Col md="6" lg="3" className="s3__box-item">
-          <img
-            src="https://bootstrapmade.com/demo/themes/eStartup/img/svg/pixel.svg"
-            alt=""
-          />
-          <h3>perfect pixel</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry
-          </p>
-        </Col>
-        <Col md="6" lg="3" className="s3__box-item">
-          <img
-            src="https://bootstrapmade.com/demo/themes/eStartup/img/svg/code.svg"
-            alt=""
-          />
-          <h3>clean codes</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry
-          </p>
-        </Col>
-      </Row>
-    </Container>
-    <style>{`
+export default () => ( <
+    section className = "s3" >
+    <
+    Container >
+    <
+    div className = "s3__titles" >
+    <
+    h1 > Galeria. < /h1> <
+    h4 > Imagen1 < /h4> <
+    /div> <
+    Row className = "s3__box-wrapper" >
+    <
+    Col md = "6"
+    lg = "3"
+    className = "s3__box-item" >
+    <
+    img src = "https://bootstrapmade.com/demo/themes/eStartup/img/svg/paint-palette.svg"
+    alt = "" /
+    >
+    <
+    h3 > Galeria < /h3> <
+    p >
+    Imagen 2 <
+    /p> <
+    /Col> <
+    Col md = "6"
+    lg = "3"
+    className = "s3__box-item" >
+    <
+    img src = "https://bootstrapmade.com/demo/themes/eStartup/img/svg/vector.svg"
+    alt = "" /
+    >
+    <
+    h3 > Galeria < /h3> <
+    p >
+    Imagen 3 <
+    /p> <
+    /Col> <
+    Col md = "6"
+    lg = "3"
+    className = "s3__box-item" >
+    <
+    img src = "https://bootstrapmade.com/demo/themes/eStartup/img/svg/design-tool.svg"
+    alt = "" /
+    >
+    <
+    h3 > Galeria < /h3> <
+    p >
+    Imagen 4 <
+    /p> <
+    /Col> <
+    Col md = "6"
+    lg = "3"
+    className = "s3__box-item" >
+    <
+    img src = "https://bootstrapmade.com/demo/themes/eStartup/img/svg/asteroid.svg"
+    alt = "" /
+    >
+    <
+    h3 > Galeria imagen 5 < /h3> <
+    p >
+    imagen 5 <
+    /p> <
+    /Col> <
+    Col md = "6"
+    lg = "3"
+    className = "s3__box-item" >
+    <
+    img src = "https://bootstrapmade.com/demo/themes/eStartup/img/svg/asteroid.svg"
+    alt = "" /
+    >
+    <
+    h3 > Galeria < /h3> <
+    p >
+    imagen 6 <
+    /p> <
+    /Col> <
+    Col md = "6"
+    lg = "3"
+    className = "s3__box-item" >
+    <
+    img src = "https://bootstrapmade.com/demo/themes/eStartup/img/svg/cloud-computing.svg"
+    alt = "" /
+    >
+    <
+    h3 > Galeria 7 < /h3> <
+    p >
+    imagen 7 <
+    /p> <
+    /Col> <
+    Col md = "6"
+    lg = "3"
+    className = "s3__box-item" >
+    <
+    img src = "https://bootstrapmade.com/demo/themes/eStartup/img/svg/pixel.svg"
+    alt = "" /
+    >
+    <
+    h3 > Galeria 8 < /h3> <
+    p >
+    imagen 8 <
+    /p> <
+    /Col> <
+    Col md = "6"
+    lg = "3"
+    className = "s3__box-item" >
+    <
+    img src = "https://bootstrapmade.com/demo/themes/eStartup/img/svg/code.svg"
+    alt = "" /
+    >
+    <
+    h3 > Galeria 9 < /h3> <
+    p >
+    imagen 9 <
+    /p> <
+    /Col> <
+    /Row> <
+    /Container> <
+    style > { `
     .s3 {
         font-size: 16px;
         margin-top: 10em;
@@ -150,6 +170,6 @@ export default () => (
         color: dimgray;
     }
     
-    `}</style>
-  </section>
+    ` } < /style> <
+    /section>
 )
