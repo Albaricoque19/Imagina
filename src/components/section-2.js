@@ -27,11 +27,13 @@ export default () => ( <
     /h1> <
     ul className = "s2__list" >
     <
-    li > < i className = "" > Teléfono < /i>  988789345</li >
+    li > < i className = "" > Teléfono: < /i>  988789345</li >
     <
     li > < i className = "" > Dirección: < /i>  Jr los alisos dpt 25-Lima</li >
     <
-    li > < i className = "" > Sabemos que su elección de servicio de catering es importante < /i> </li >
+    li > < i className = "" > Imagina y disfruta de la fiesta < /i> </li >
+    <
+    li > < i className = "" > IPronto Novedades < /i> </li >
     <
     /ul> <
     /Col> <

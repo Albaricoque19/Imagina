@@ -1,51 +1,71 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 
-export default () => (
-  <section className="s6">
-    <Container>
-      <div className="s6__titles">
-        <h1>Miembros</h1>
-        <h4>Integer Cursus Bibendum Augue Ac Cursus .</h4>
-      </div>
-      <Row>
-        <Col md="6" lg="3">
-          <div className="s6__frame">
-            <img
-              src="https://bootstrapmade.com/demo/themes/eStartup/img/team/2.jpg"
-              alt=""
-            />
-            <div className="s6__in-out-alert">
-              <div className="s6__social-icons">
-                <i className="fab fa-facebook-f" />
-                <i className="fab fa-twitter" />
-                <i class="fab fa-linkedin-in" />
-              </div>
-              <h3>Miembro</h3>
-              <h3>Alexis Omar Rojas Aldazabal</h3>
-            </div>
-          </div>
-        </Col>
-        <Col md="6" lg="3">
-          <div className="s6__frame">
-            <img
-              src="https://bootstrapmade.com/demo/themes/eStartup/img/team/3.jpg"
-              alt=""
-            />
-            <div className="s6__in-out-alert">
-              <div className="s6__social-icons">
-                <i className="fab fa-facebook-f" />
-                <i className="fab fa-twitter" />
-                <i class="fab fa-linkedin-in" />
-              </div>
-              <h3>Miembro</h3>
-              <h3>Nayeli</h3>
-            </div>
-          </div>
-        </Col>
-      </Row>
-    </Container>
-    <style>{`
+export default () => ( <
+    section className = "s6" >
+    <
+    Container >
+    <
+    div className = "s6__titles" >
+    <
+    h1 > Miembros < /h1> <
+    h4 > Creadores de Imagina. < /h4> <
+    /div> <
+    Row >
+    <
+    Col md = "6"
+    lg = "3" >
+    <
+    div className = "s6__frame" >
+    <
+    img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2c5dktaFrCWIHyEhy_00jPPi__gjk7vbFiQ&usqp=CAU"
+    alt = "" /
+    >
+    <
+    div className = "s6__in-out-alert" >
+    <
+    div className = "s6__social-icons" >
+    <
+    i className = "fab fa-facebook-f" / >
+    <
+    i className = "fab fa-twitter" / >
+    <
+    i class = "fab fa-linkedin-in" / >
+    <
+    /div> <
+    h3 > Miembro < /h3> <
+    h3 > Alexis Omar Rojas Aldazabal < /h3> <
+    /div> <
+    /div> <
+    /Col> <
+    Col md = "6"
+    lg = "3" >
+    <
+    div className = "s6__frame" >
+    <
+    img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxH41I2eGO-4EYsFQZHKGq01Svz0zBR-Uk7vf79QpdygsM1y0y-5IfynWZVmiurCHPIR4&usqp=CAU"
+    alt = "" /
+    >
+    <
+    div className = "s6__in-out-alert" >
+    <
+    div className = "s6__social-icons" >
+    <
+    i className = "fab fa-facebook-f" / >
+    <
+    i className = "fab fa-twitter" / >
+    <
+    i class = "fab fa-linkedin-in" / >
+    <
+    /div> <
+    h3 > Miembro < /h3> <
+    h3 > Nayeli < /h3> <
+    /div> <
+    /div> <
+    /Col> <
+    /Row> <
+    /Container> <
+    style > { `
           .s6 {
               font-size: 16px;
               margin-top: 10em;
@@ -128,6 +148,6 @@ export default () => (
             }
             
             
-        `}</style>
-  </section>
+        ` } < /style> <
+    /section>
 )
