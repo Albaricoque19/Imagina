@@ -9,24 +9,16 @@ import Carousel from "./components/carousel";
 import Sec6 from "./components/section-6";
 
 function App() {
-    return ( <
-        div className = "app-wrapper" >
-        <
-        Nav / >
-        <
-        Header / >
-        <
-        Carousel / >
-        <
-        Sec1 / >
-        <
-        Sec3 / >
-        <
-        Sec2 / >
-        <
-        Sec6 / >
-        <
-        style jsx global > { `
+  return (
+    <div className="app-wrapper">
+      <Nav />
+      <Header />
+      <Carousel />
+      <Sec1 />
+      <Sec3 />  
+      <Sec2 />  
+      <Sec6 />
+      <style jsx global>{`
         .app-wrapper {
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
             "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
@@ -54,10 +46,10 @@ function App() {
             background-attachment: fixed;
           }
         }
-      ` } < /style> <
-        /div>
-    );
+      `}</style>
+    </div>
+  );
 }
 
 const rootElement = document.getElementById("root");
-ReactDOM.render( < App / > , rootElement);
+ReactDOM.render(<App />, rootElement);

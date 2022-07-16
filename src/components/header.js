@@ -1,37 +1,44 @@
 import React from "react";
-import { Container, Jumbotron } from "reactstrap";
+
 
 const Header = () => {
-  return (
-    <header>
-      <div className="intro-logo jumbo-bg">
-        <h1>Imagina</h1>
-        <h3>EVENTOS + CATERING</h3>
-        <img
-          src="http://127.0.0.1:5500/imagina/images/home.png"
-          className=""
-          alt=""
-        />
-        <div className="intro-button">
-          <a href="">Cotiza</a>
-        </div>
-        <div className="company-icons">
-          <span className="company-icons__item">
-            <i className="fab fa-facebook" />
-            Facebook
-          </span>
-          <span className="company-icons__item">
-            <i className="fab fa-twitter" />
-            Twitter
-          </span>
-          <span className="company-icons__item">
-            <i className="fab fa-whatsapp" />
-            Whatsapp
-          </span>
-        </div>
-      </div>
+    return ( <
+        header >
+        <
+        div className = "intro-logo jumbo-bg" >
+        <
+        h1 > Imagina < /h1> <
+        img src = "https://scontent.flim29-1.fna.fbcdn.net/v/t39.30808-6/273818021_382173687116750_2533535633275848022_n.jpg?stp=dst-jpg_p640x640&_nc_cat=110&ccb=1-7&_nc_sid=e3f864&_nc_ohc=rKbq0BPUo4IAX_UIzYT&_nc_ht=scontent.flim29-1.fna&oh=00_AT-KAgNkcFtm_fHDQz7Ln0YbAxpAHmRkMfxWM8WegCZ8iQ&oe=62D81408"
+        className = ""
+        alt = "" /
+        >
+        <
+        div className = "intro-button" >
+        <
+        a href = "" > Cotiza < /a> <
+        /div> <
+        div className = "company-icons" >
+        <
+        span className = "company-icons__item" >
+        <
+        i className = "fab fa-facebook" / >
+        Facebook <
+        /span> <
+        span className = "company-icons__item" >
+        <
+        i className = "fab fa-twitter" / >
+        Twitter <
+        /span> <
+        span className = "company-icons__item" >
+        <
+        i className = "fab fa-whatsapp" / >
+        Whatsapp <
+        /span> <
+        /div> <
+        /div>
 
-      <style jsx>{`
+        <
+        style jsx > { `
         header {
           margin-bottom: 1rem;
           height: 100vh;
@@ -68,8 +75,8 @@ const Header = () => {
         }
 
         .intro-logo img {
-          max-width: 95%;
-          height: auto;
+          max-width: 60%;
+          height: 150%;
         }
         .company-icons__item + .company-icons__item {
           margin-left: 1rem;
@@ -110,9 +117,9 @@ const Header = () => {
           color: var(--brand-color);
           cursor: pointer;
         }
-      `}</style>
-    </header>
-  );
+      ` } < /style> <
+        /header>
+    );
 };
 
 export default Header;

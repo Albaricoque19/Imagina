@@ -23,21 +23,15 @@ export default () => ( <
     <
     h1 >
     <
-    span className = "bold" > Contactenos < /span>  Sabemos que su elección de servicio de catering es
-    importante. <
+    span className = "bold" > Contactenos < /span>   <
     /h1> <
-    p >
-    Es por eso que ofrecemos consultas gratuitas para asegurarnos de que somos el equipo adecuado para ayudarlo a crear un evento increíble.¡Envíanos un mensaje a continuación para ponerte en contacto!
-    <
-    /p> <
     ul className = "s2__list" >
     <
-    li > < i className = "" > Teléfono < /i>  Teléfono</li >
+    li > < i className = "" > Teléfono < /i>  988789345</li >
     <
-    li > < i className = "" > Dirección: < /i>  Dirección:</li >
+    li > < i className = "" > Dirección: < /i>  Jr los alisos dpt 25-Lima</li >
     <
-    li > < i className = "" > Sabemos que su elección de servicio de catering es importante < /i>  ♥♥♥</li >
-
+    li > < i className = "" > Sabemos que su elección de servicio de catering es importante < /i> </li >
     <
     /ul> <
     /Col> <
