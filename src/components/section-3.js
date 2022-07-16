@@ -38,12 +38,14 @@ export default () => (
             alt=""
           />
         </Col>
+        
         <Col md="6" lg="3" className="s3__box-item">
           <img
             src="https://ideasparalasfiestas.com/wp-content/uploads/2022/01/montajes-modernos-para-fiestas-infantiles-1.jpg"
             alt=""
           />
         </Col>
+
         <Col md="6" lg="3" className="s3__box-item">
           <img
             src="https://infomercado.pe/wp-content/uploads/2019/11/IMG_9903.jpg"
