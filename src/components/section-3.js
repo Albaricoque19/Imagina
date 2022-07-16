@@ -1,125 +1,64 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 
-export default () => ( <
-    section className = "s3" >
-    <
-    Container >
-    <
-    div className = "s3__titles" >
-    <
-    h1 > Galeria. < /h1> <
-    h4 > Imagen1 < /h4> <
-    /div> <
-    Row className = "s3__box-wrapper" >
-    <
-    Col md = "6"
-    lg = "3"
-    className = "s3__box-item" >
-    <
-    img src = "https://bootstrapmade.com/demo/themes/eStartup/img/svg/paint-palette.svg"
-    alt = "" /
-    >
-    <
-    h3 > Galeria < /h3> <
-    p >
-    Imagen 2 <
-    /p> <
-    /Col> <
-    Col md = "6"
-    lg = "3"
-    className = "s3__box-item" >
-    <
-    img src = "https://bootstrapmade.com/demo/themes/eStartup/img/svg/vector.svg"
-    alt = "" /
-    >
-    <
-    h3 > Galeria < /h3> <
-    p >
-    Imagen 3 <
-    /p> <
-    /Col> <
-    Col md = "6"
-    lg = "3"
-    className = "s3__box-item" >
-    <
-    img src = "https://bootstrapmade.com/demo/themes/eStartup/img/svg/design-tool.svg"
-    alt = "" /
-    >
-    <
-    h3 > Galeria < /h3> <
-    p >
-    Imagen 4 <
-    /p> <
-    /Col> <
-    Col md = "6"
-    lg = "3"
-    className = "s3__box-item" >
-    <
-    img src = "https://bootstrapmade.com/demo/themes/eStartup/img/svg/asteroid.svg"
-    alt = "" /
-    >
-    <
-    h3 > Galeria imagen 5 < /h3> <
-    p >
-    imagen 5 <
-    /p> <
-    /Col> <
-    Col md = "6"
-    lg = "3"
-    className = "s3__box-item" >
-    <
-    img src = "https://bootstrapmade.com/demo/themes/eStartup/img/svg/asteroid.svg"
-    alt = "" /
-    >
-    <
-    h3 > Galeria < /h3> <
-    p >
-    imagen 6 <
-    /p> <
-    /Col> <
-    Col md = "6"
-    lg = "3"
-    className = "s3__box-item" >
-    <
-    img src = "https://bootstrapmade.com/demo/themes/eStartup/img/svg/cloud-computing.svg"
-    alt = "" /
-    >
-    <
-    h3 > Galeria 7 < /h3> <
-    p >
-    imagen 7 <
-    /p> <
-    /Col> <
-    Col md = "6"
-    lg = "3"
-    className = "s3__box-item" >
-    <
-    img src = "https://bootstrapmade.com/demo/themes/eStartup/img/svg/pixel.svg"
-    alt = "" /
-    >
-    <
-    h3 > Galeria 8 < /h3> <
-    p >
-    imagen 8 <
-    /p> <
-    /Col> <
-    Col md = "6"
-    lg = "3"
-    className = "s3__box-item" >
-    <
-    img src = "https://bootstrapmade.com/demo/themes/eStartup/img/svg/code.svg"
-    alt = "" /
-    >
-    <
-    h3 > Galeria 9 < /h3> <
-    p >
-    imagen 9 <
-    /p> <
-    /Col> <
-    /Row> <
-    /Container> <
-    style > { `
+export default () => (
+  <section className="s3">
+    <Container>
+      <div className="s3__titles">
+        <h1> Galeria.</h1>
+      </div>
+      <Row className="s3__box-wrapper">
+        <Col md="6" lg="3" className="s3__box-item">
+          <img
+            src="https://img4.evepla.com/917/888/428219019178883.jpg"
+            alt=""
+          />
+        </Col>
+        <Col md="6" lg="3" className="s3__box-item">
+          <img
+            src="http://guiamexico.com.mx/Imagenes/b/207704931-1-chikids-jardin-de-eventos-infantiles.jpeg"
+            alt=""
+          />
+        </Col>
+        <Col md="6" lg="3" className="s3__box-item">
+          <img
+            src="https://www.produccioneschiquichiqui.com/wp-content/uploads/POW-PETROL.png"
+            alt=""
+          />
+        </Col>
+        <Col md="6" lg="3" className="s3__box-item">
+          <img
+            src="https://www.bubalina.com/wp-content/uploads/2018/04/1-68.jpg"
+            alt=""
+          />
+        </Col>
+        <Col md="6" lg="3" className="s3__box-item">
+          <img
+            src="https://eventosmagictime.com/wp-content/uploads/2021/10/Captura-de-pantalla-2021-10-12-a-las-7.17.21-p.m..png"
+            alt=""
+          />
+        </Col>
+        <Col md="6" lg="3" className="s3__box-item">
+          <img
+            src="https://ideasparalasfiestas.com/wp-content/uploads/2022/01/montajes-modernos-para-fiestas-infantiles-1.jpg"
+            alt=""
+          />
+        </Col>
+        <Col md="6" lg="3" className="s3__box-item">
+          <img
+            src="https://infomercado.pe/wp-content/uploads/2019/11/IMG_9903.jpg"
+            alt=""
+          />
+        </Col>
+        <Col md="6" lg="3" className="s3__box-item">
+          <img
+            src="https://infomercado.pe/wp-content/uploads/2019/11/IMG_9857.jpg"
+            alt=""
+          />
+        </Col>
+      </Row>
+    </Container>
+    <style>{`
     .s3 {
         font-size: 16px;
         margin-top: 10em;
@@ -170,6 +109,6 @@ export default () => ( <
         color: dimgray;
     }
     
-    ` } < /style> <
-    /section>
+    `}</style>
+  </section>
 )
